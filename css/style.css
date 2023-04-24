@@ -1,0 +1,155 @@
+/* Set global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  margin: 0;
+}
+h3{
+  color:rgb(28, 103, 88);
+}
+
+a {
+  color: rgb(28, 103, 88);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(28, 103, 88);
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style the skills table */
+.skills-table {
+  margin-top: 20px;
+}
+
+.skills-table th {
+  width: 150px;
+}
+
+.skills-table td {
+  text-align: center;
+}
+
+/* Style the projects section */
+.projects {
+  margin-top: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.project h4 {
+  margin: 0;
+}
+
+.project p {
+  margin: 10px 0 0 0;
+  font-style: italic;
+}
+
+.project a {
+  color: rgb(28, 103, 88);
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(28, 103, 88);
+  padding: 50px 0;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.footer-item h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:white
+}
+
+.footer-item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item ul li {
+  margin-bottom: 5px;
+}
+
+.footer-item ul li a {
+  color:black ;
+}
+.footer-item ul li a:hover {
+  color:white ;
+}
+
+.copywrite {
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+  font-size: 12px;
+}
+

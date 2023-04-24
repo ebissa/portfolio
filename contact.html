@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Info</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #2c3e50;
+  margin-top: 50px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 50px auto;
+        padding: 0;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      li {
+        margin: 20px 0;
+        color: #34495e;
+      }
+
+      hr {
+        border: none;
+        height: 1px;
+        background-color: #bdc3c7;
+        margin: 50px auto;
+        width: 80%;
+      }
+
+      form {
+        margin: 50px auto;
+        width: 80%;
+        text-align: center;
+      }
+
+      label {
+        font-size: 24px;
+        color: #2c3e50;
+        margin-right: 20px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 70%;
+        margin-bottom: 20px;
+      }
+
+      input[type="submit"] {
+        background-color: #2c3e50;
+        color: #fff;
+        font-size: 24px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #34495e;
+      }
+
+      textarea {
+        height: 200px;
+      }
+</style>
+</head>
+<body>
+  <h1><strong>My Contact Detail</strong></h1>
+  <ul>
+    <li>Phone Number: 0966498670</li>
+    <li>Email: ebew.chemeda@gmail.com</li>
+    <li>Location: Haramaya University</li>
+  </ul>
+  <hr>
+  <form action="mailto:ebew.chemeda@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourname" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="youremail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourmessage" rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit" name="submit" value="Send">
+  </form>
+</body>
+</html> 
